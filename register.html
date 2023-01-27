@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register form exercise</title>
+</head>
+<body>
+	<header>
+	<h3>Menu</h3>
+</header>
+	<ul>
+		<a href="index.html"><li>First Page</li></a>
+		<a href="coding.html"><li><strong>Coding journey, tips & tricks</strong></li></a>
+		<li>Hiking trails@the world</li>
+		 <img src ="https://www.contiki.com/six-two/wp-content/uploads/2020/02/0145SAME2019.jpg" width = '300' height ='200'> 
+		<li> What are we reading this week?</li>
+
+	</ul>
+	<h4>HTML Register Form exercise </h4>
+	<!-- USE GET , not POST -->
+	<form>
+		First Name:<input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Passowrd: <input type="password" name="password" min='8'><br>
+		Birthday: <input type="date" name="birthday"><br>
+		gender:<br>
+		<input type="radio"  name="gender" value="male">Male<br>
+		<input type="radio"  name="gender" value="female">Female<br>
+		<input type= "radio" name="gender" value="other">Other<br>
+		Pets: <br>
+		<input type="checkbox" name="cat"> Cat <br>
+		<input type = "checkbox" name="dog">Dogs<br>
+		Cars: <br>
+		<select name = "cars">
+			<option value= "volvo" >Volvo</option>
+			<option value= "audi" >Audi</option>
+		</select><br>
+
+		<input type ="submit" value="Register!">
+		<input type="Reset">
+
+	</form>
+	<footer>
+		<p>just a test website</p>
+	</footer>
+
+</body>
+</html>
